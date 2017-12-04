@@ -2,7 +2,7 @@
 	ors {
 		services: {
 			shortenlink: {
-				enabled: true,
+				enabled: false,
 				user_name: YOUR_USER,
 				user_password: YOUR_PASSWORD,
 				api_key: YOUR_API_KEY,
@@ -84,7 +84,7 @@
 			routing: {
 				enabled: true,
 				mode: "normal",
-				sources: ["data/heidelberg.osm.gz"],
+				sources: ["data/iran-latest.osm.pbf"],
 				init_threads: 2,
 				attribution: "openrouteservice.org, OpenStreetMap contributors, tmc - BASt",
 				distance_approximation: true,
